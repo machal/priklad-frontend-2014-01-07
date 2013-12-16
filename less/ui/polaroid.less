@@ -1,0 +1,60 @@
+// --- Komponenta Polaroid ---
+
+
+// - Seznam fotek -
+.polaroids {
+	.clearfix;
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+}
+
+
+// - Jednotliva fotka -
+
+// Base
+.polaroid {
+	a {
+	  color: #666;
+	  text-decoration: none;
+	}
+
+	.head {
+	  text-align: center;
+	  font: 15px/20px sans-serif;
+	  font-weight: normal;
+	}
+}
+
+// Layout
+.polaroid {
+	float: left;
+	width: 25.757575758%; // 170/660*100
+	height: 180px;
+	padding: 10px 1.5151515152%; // 10/660*100
+	margin: 0 3.0303030303% 20px 0; // 20/660*100
+	background-color: white;
+	color: darkgrey;
+}
+
+// Stavy
+.polaroid {
+	background-color: rgba(100%, 100%, 100%, .7);
+	
+	&:hover,
+	&:focus,
+	&:active {
+	  background-color: #fcf883;
+		background-color: rgba(100%, 100%, 100%, 1);	
+	}
+	
+	&:target {
+		background: yellow;
+	}
+
+	.polaroid:hover .head,
+	.polaroid:focus .head,
+	.polaroid:active .head {
+	  color: black;
+	}
+}
