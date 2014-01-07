@@ -129,6 +129,12 @@ table th {
   margin: 0 20px 20px 0;
   background-color: white;
   color: darkgrey;
+  -webkit-border-radius: 5%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5%;
+  -moz-background-clip: padding;
+  border-radius: 5%;
+  background-clip: padding-box;
 }
 .polaroid {
   background-color: rgba(256, 256, 256, 0.7);
