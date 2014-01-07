@@ -135,6 +135,9 @@ table th {
   -moz-background-clip: padding;
   border-radius: 5%;
   background-clip: padding-box;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
 .polaroid {
   background-color: rgba(256, 256, 256, 0.7);
