@@ -146,6 +146,10 @@ table th {
 }
 .polaroid {
   background-color: rgba(256, 256, 256, 0.7);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 .polaroid:hover,
 .polaroid:focus,
