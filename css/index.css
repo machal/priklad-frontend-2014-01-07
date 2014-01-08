@@ -123,10 +123,10 @@ table th {
 }
 .polaroid {
   float: left;
-  width: 170px;
+  width: 25.757575758%;
   height: 180px;
-  padding: 10px;
-  margin: 0 20px 20px 0;
+  padding: 1.5151515152%;
+  margin: 0 3.0303030303% 20px 0;
   background-color: white;
   color: darkgrey;
   -webkit-border-radius: 5%;
@@ -170,24 +170,30 @@ table th {
 .polaroid .polaroid:active .head {
   color: black;
 }
-.container {
-  width: 1000px;
-  margin: 0 auto;
-  zoom: 1;
+.polaroid img {
+  max-width: 100%;
+  height: auto;
 }
-.container:before,
-.container:after {
-  content: "";
-  display: table;
-}
-.container:after {
-  clear: both;
-}
-.content {
-  width: 660px;
-  float: left;
-}
-.side {
-  width: 330px;
-  float: right;
+@media (min-width: 670px) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    zoom: 1;
+  }
+  .container:before,
+  .container:after {
+    content: "";
+    display: table;
+  }
+  .container:after {
+    clear: both;
+  }
+  .content {
+    width: 66%;
+    float: left;
+  }
+  .side {
+    width: 33%;
+    float: right;
+  }
 }

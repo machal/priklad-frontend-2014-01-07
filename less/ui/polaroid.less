@@ -29,10 +29,10 @@
 // Layout
 .polaroid {
 	float: left;
-	width: 170px; 
+	width: 25.757575758%; // 170/660*100
 	height: 180px;
-	padding: 10px;
-	margin: 0 20px 20px 0;
+	padding: 1.5151515152%; // 10/660*100
+	margin: 0 3.0303030303% 20px 0; // 20/660*100
 	background-color: white;
 	color: darkgrey;
 	.border-radius(5%);
@@ -63,3 +63,8 @@
 	  color: black;
 	}
 }
+
+.polaroid img {
+	max-width: 100%;
+	height: auto;
+}	
